@@ -1,25 +1,36 @@
 {
-  "name": "imagepreview",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "name": "strapi-plugin-website-preview",
+  "version": "1.0.2",
+  "description": "Strapi plugin used to preview a page that are building through custom field.",
   "strapi": {
-    "name": "imagepreview",
-    "description": "Description of Imagepreview plugin",
+    "name": "pagepreview",
+    "description": "Gives preview of the web page created through custom field.",
     "kind": "plugin",
-    "displayName": "Image Preview"
+    "displayName": "Page Preview"
   },
-  "dependencies": {},
-  "author": {
-    "name": "A Strapi developer"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinubabu323/website-preview.git"
   },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "author": "Vinu Babu <vinubabu323@gmail.com>",
   "maintainers": [
-    {
-      "name": "A Strapi developer"
-    }
+    "Vinu Babu <vinubabu323@gmail.com>"
   ],
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinubabu323/website-preview/issues"
+  },
+  "homepage": "https://github.com/vinubabu323/website-preview#readme",
+  "main": "strapi-admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
 }

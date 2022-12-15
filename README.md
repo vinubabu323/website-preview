@@ -1,3 +1,3 @@
-# Strapi plugin imagepreview
+# Strapi plugin pagepreview
 
-A quick description of imagepreview.
+A quick description of pagepreview.
