@@ -2,8 +2,8 @@
 
 module.exports = ({ strapi }) => {
   strapi.customFields.register({
-    name: 'image-preview',
-    plugin: 'imagepreview',
+    name: 'page-preview',
+    plugin: 'pagepreview',
     type: 'string',
   });
 };
