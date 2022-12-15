@@ -3,7 +3,7 @@
 module.exports = ({ strapi }) => ({
   index(ctx) {
     ctx.body = strapi
-      .plugin('imagepreview')
+      .plugin('pagepreview')
       .service('myService')
       .getWelcomeMessage();
   },

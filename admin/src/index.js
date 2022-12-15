@@ -15,15 +15,15 @@ export default {
       name,
     });
     app.customFields.register({
-      name: "image-preview",
-      pluginId: "imagepreview", // the custom field is created by a color-picker plugin
+      name: "page-preview",
+      pluginId: "pagepreview", // the custom field is created by a color-picker plugin
       type: "string", // the color will be stored as a string
       intlLabel: {
-        id: getTrad("image-preview.imagepreview.label"),
+        id: getTrad("page-preview.pagepreview.label"),
         defaultMessage: "Page Preview",
       },
       intlDescription: {
-        id: getTrad("image-preview.imagepreview.description"),
+        id: getTrad("page-preview.pagepreview.description"),
         defaultMessage: "This name will appear as field name in content builder.",
       },
       components: {
