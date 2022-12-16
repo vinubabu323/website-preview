@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-website-preview",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Strapi plugin used to preview a page that are building through custom field.",
   "strapi": {
     "name": "pagepreview",
