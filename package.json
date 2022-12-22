@@ -30,7 +30,7 @@
   "homepage": "https://github.com/vinubabu323/website-preview#readme",
   "main": "strapi-admin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test speci  fied\" && exit 1"
   },
   "keywords": []
 }
