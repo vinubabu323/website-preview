@@ -6,7 +6,7 @@
     "name": "pagepreview",
     "description": "Gives preview of the web page created through custom field.",
     "kind": "plugin",
-    "displayName": "Page Preview"
+    "displayName": "Web Page Preview"
   },
   "repository": {
     "type": "git",
