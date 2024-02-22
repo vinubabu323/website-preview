@@ -24,6 +24,7 @@ const Input = ({
   const { formatMessage } = useIntl();
   const [content, setContent] = useState("");
   const [isVisible, setIsVisible] = useState(false);
+  const FRONT_END_URL = process.env.STRAPI_ADMIN_FRONT_END_URL;
   return (
     <Box>
       <TextInput
@@ -48,6 +49,7 @@ const Input = ({
         value={value}
         withTags
       ></TextInput>
+
       <Box paddingTop={2}>
         <Button onClick={() => setIsVisible((prev) => !prev)}>Preview</Button>
       </Box>

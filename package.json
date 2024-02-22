@@ -1,12 +1,12 @@
 {
   "name": "strapi-plugin-website-preview",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Strapi plugin used to preview a page that are building through custom field.",
   "strapi": {
     "name": "pagepreview",
     "description": "Gives preview of the web page created through custom field.",
     "kind": "plugin",
-    "displayName": "Page Preview"
+    "displayName": "Web Page Preview"
   },
   "repository": {
     "type": "git",
